@@ -33,7 +33,7 @@ export default function Home() {
             <aside className='aside'>
 
               <div className='photo'>
-                  <img className='ft' src={user.photoUrl} alt={`${user.name}'s photo`} />
+                  <img src={user.photoUrl} alt={`${user.name}'s photo`} />
               </div>
 
               <div className='aside-infos'>
