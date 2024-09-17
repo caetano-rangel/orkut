@@ -22,7 +22,7 @@ export default function Home() {
   <ul className='nav-ul'>
     <p className='orkut-nav'>orkut 2.0</p>
     <div className='nav-links'>
-      <li className='nav-li'><Link to="/">Login</Link></li>
+      <li className='nav-li'><Link to="/orkut">Login</Link></li>
       <li className='nav-li'><Link to="/home">Perfil</Link></li>
       <li className='nav-li'><Link to="/friends">Amigos</Link></li>
       <li className='nav-li'><Link to="/comunidade">Comunidades</Link></li>
