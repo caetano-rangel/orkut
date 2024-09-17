@@ -10,7 +10,7 @@ createRoot(document.getElementById('root')).render(
     <Router>
       <Routes>
         {/* Rota para a página de login */}
-        <Route path="/" element={<App />} />
+        <Route path="/orkut" element={<App />} />
         {/* Rota para a página Home */}
         <Route path="/home" element={<Home />} />
       </Routes>
