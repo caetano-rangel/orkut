@@ -1,0 +1,156 @@
+.page
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    min-height: 80vh
+    gap: 10px
+
+.tab
+    display: flex
+    padding: 10px
+    padding-left: 20px
+    width: 50%
+    background: #cce4ee
+    box-sizing: border-box
+
+.tab-title
+    color: #000
+    font-weight: bold
+
+.login
+    display: flex
+    justify-content: center
+    gap: 10px
+    width: 100%
+    align-items: center
+    
+
+.title
+    display: flex
+    flex-direction: column
+    background: #fff
+    justify-content: center
+    align-items: center
+    padding: 65px
+
+.orkut
+    font-size: 130px
+    color: #ff3ed5
+    margin: 0
+
+.sub-title
+    margin-top: 5px
+    color: #808080
+
+.highlight
+    color: #ff3ed5
+
+.form-box
+    display: flex
+    flex-direction: column
+    justify-content: center
+    width: 30%
+    background: #cce4ee
+    padding: 30px
+    gap: 30px
+
+.form
+    display: flex
+    flex-direction: column
+    gap: 10px
+
+.title-form
+    font-size: 20px
+    font-weight: bold
+
+.p-form
+    font-size: 18px
+    font-weight: bold
+
+.input
+    border: none
+    outline: none
+    padding: 10px
+    border-radius: 5px
+
+.submit
+    margin-top: 20px
+    border: none
+    outline: none
+    padding: 10px
+    background: #ffffff
+    color: #000
+    font-size: 18px
+
+.submit:hover
+    cursor: pointer
+    color: #ff3ed5
+
+
+// Media queries para responsividade
+
+@media (max-width: 768px)
+    .title
+        width: 90%
+        padding: 15px
+        justify-content: center
+        align-items: center
+
+    .orkut
+        font-size: 60px
+
+    .form-box
+        width: 100%
+        padding: 15px
+        gap: 15px
+
+    .title-form
+        font-size: 16px
+
+    .p-form
+        font-size: 14px
+
+    .submit
+        font-size: 14px
+
+@media (max-width: 480px)
+    .tab
+        width: 100%
+
+    .login
+        flex-direction: column
+
+    .title
+        width: 100%
+        padding: 10px
+        gap: 20px
+        padding-bottom: 20px
+
+    .orkut
+        font-size: 70px
+
+    .sub-title
+        justify-content: center
+        align-items: center
+        text-align: center
+        font-size: 17px
+
+    .form-box
+        width: 100%
+        padding: 10px
+        gap: 10px
+
+    .title-form
+        font-size: 20px
+        margin-bottom: 20px
+
+    .p-form
+        font-size: 18px
+
+    .input
+        font-size: 16px
+
+    .submit
+        font-size: 20px
+        font-weight: bold
