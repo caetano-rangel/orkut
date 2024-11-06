@@ -125,6 +125,31 @@
         "comida": "topburger",
         "tatuagem": "its lit",
         "apelido": "amor,padre,putin,thunder,faixa"
+      },
+      {
+        "username": "madre",
+        "password": "namoradadonico123",
+        "name": "madre morena",
+        "photoUrl": "",
+        "relacionamento": " solteira",
+        "niver": "20/08/2002",
+        "age": "22",
+        "sex": "Feminino",
+        "interesse": "Veterinária ",
+        "moro": "Ribeirão Preto",
+        "cidade": "Ribeirão Preto",
+        "bebo": "Tudo",
+        "fumo": "Nada",
+        "signo": "Leão",
+        "sapato": "Salto",
+        "humor": "Engraçado ",
+        "treina": "Depende do mood",
+        "fobia": "Tripofobia",
+        "lugar": "NY",
+        "cor": "Roxo",
+        "comida": "Macarrão ",
+        "tatuagem": "Coração ",
+        "apelido": "Namorada do Nico"
       }
     ]
   }
